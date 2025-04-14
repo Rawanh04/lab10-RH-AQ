@@ -35,17 +35,8 @@ def log(a, b):
 def exp(a, b):
     return math.pow(a, b)
 
-
-
-
 def multiply(a, b):
     return a * b
-
-def divide(a,b):
-    try:
-        return a/b
-    except ZeroDivisionError:
-        raise ZeroDivisionError
 
 def logarithm(a, b):
     try:
