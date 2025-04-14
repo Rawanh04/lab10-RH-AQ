@@ -45,7 +45,7 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(div(-1,-5),5)
         self.assertEqual(div(10000,1),0.0001)
         self.assertNotEqual(div(10000,-1),1)
-        self.assertAlmostEqual(div(3,2),0.666)
+        self.assertAlmostEqual(div(3,2),0.6666666666666666)
     # ##########################
 
     ######## Partner 2
@@ -77,7 +77,7 @@ class TestCalculator(unittest.TestCase):
             logarithm(-5,0)
 
     def test_hypotenuse(self): # 3 assertions
-        self.assertAlmostEqual(hypotenuse(2,2), 2.828)
+        self.assertAlmostEqual(hypotenuse(2,2), 2.8284271247461903)
         self.assertEqual(hypotenuse(2,0), 2)
         self.assertAlmostEqual(hypotenuse(-2,1), 2.36)
 
