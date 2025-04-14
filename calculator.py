@@ -1,3 +1,7 @@
+#https://github.com/Rawanh04/lab10-RH-AQ
+#Partner 1: Rawan Hussain
+#Partner 2: Ashley Quintana
+
 import math
 """
 Link:
@@ -13,7 +17,7 @@ One function per operation, in order.
 def add(a, b):
     return a+b
 
-def substract(a, b):
+def subtract(a, b):
     return a-b
 
 def add(a, b):
