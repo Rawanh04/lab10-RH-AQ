@@ -79,7 +79,7 @@ class TestCalculator(unittest.TestCase):
     def test_hypotenuse(self): # 3 assertions
         self.assertAlmostEqual(hypotenuse(2,2), 2.8284271247461903)
         self.assertEqual(hypotenuse(2,0), 2)
-        self.assertAlmostEqual(hypotenuse(-2,1), 2.36)
+        self.assertAlmostEqual(hypotenuse(-2,1), 2.23606797749979)
 
     def test_sqrt(self): # 3 assertions
         # Test for invalid argument, example:
