@@ -42,10 +42,10 @@ def multiply(a, b):
     return a * b
 
 def divide(a,b):
-    try:
-        return a/b
-    except ZeroDivisionError:
+    if a == 0:
         raise ZeroDivisionError
+    return b/a
+
 
 def logarithm(a, b):
     if a <= 0 or b <= 0:
