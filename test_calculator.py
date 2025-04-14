@@ -17,11 +17,11 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(add(3, 0), 3) # 3 + 0 = 3
 
     def test_subtract(self): # 3 assertions
-        self.assertEqual(substract(3, 2), 1) # 3 - 2 = 1
-        self.assertEqual(substract(1, 0), 1) # 1 - 0 = 1
-        self.assertEqual(substract(-1, 4), -5) # -1 - 4 = -5
-        self.assertEqual(substract(0, -6), 6) # 0 - (-6) = 6
-        self.assertEqual(substract(0, 9), -9) # 0 - 9 = -9
+        self.assertEqual(subtract(3, 2), 1) # 3 - 2 = 1
+        self.assertEqual(subtract(1, 0), 1) # 1 - 0 = 1
+        self.assertEqual(subtract(-1, 4), -5) # -1 - 4 = -5
+        self.assertEqual(subtract(0, -6), 6) # 0 - (-6) = 6
+        self.assertEqual(subtract(0, 9), -9) # 0 - 9 = -9
 
     # ##########################
 
