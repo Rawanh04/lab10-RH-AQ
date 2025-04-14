@@ -1,3 +1,7 @@
+#https://github.com/Rawanh04/lab10-RH-AQ
+#Partner 1: Rawan Hussain
+#Partner 2: Ashley Quintana
+
 import math
 """
 calculator.py
