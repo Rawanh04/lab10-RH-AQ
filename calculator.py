@@ -1,5 +1,9 @@
 import math
 """
+Link:
+Partner 1: Rawan Hussain
+Partner 2: Ashley Quintana
+
 calculator.py
 - Defines functions used to create a simple calculator
 
